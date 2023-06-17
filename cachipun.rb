@@ -15,7 +15,7 @@ def jugar(opciones)
   end
 
   if eleccion_usuario == 'salir'
-    puts 'Vuelve pronto'
+    puts '!!! Vuelve pronto'
     return
   end
 
@@ -41,7 +41,7 @@ def jugar(opciones)
   if respuesta == 'si'
     jugar(opciones)
   else
-    puts 'Vuelve pronto'
+    puts '!!! Vuelve pronto'
   end
 end
 
